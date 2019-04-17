@@ -1,0 +1,136 @@
+/* CSS for classes below */
+.Header {
+
+  font-size: 50px;
+  font-family: BureauGrotesque;
+  
+  float: left !important;
+  
+  color: white;
+
+}
+
+.Sub-Header {
+  
+  font-size: 40px;
+  font-family: BureauGrotesque;
+  
+  color: white;
+  
+}
+
+.top-links {
+
+  font-family: BureauGrotesque;
+  font-size: 30px;
+
+  float: right !important;
+  padding-top: 20px;
+  padding-right: 20px;
+
+  text-decoration: none;
+
+  color: white;
+
+}
+
+.top-links a:visited {
+
+  color: rgb(140, 140, 140);
+  text-decoration: none;
+
+}
+
+.top-links a {
+
+  color: white;
+  text-decoration: none;
+
+}
+
+.top-links a:hover {
+
+  transition: color 0.5s;
+  color: #3498db;
+
+}
+
+.Header, .top-links, .Sub-Header {
+
+  display: inline;
+
+}
+
+body {
+
+  background-color: black;
+
+}
+
+.project-description {
+  
+  color: white; 
+  
+  font-family: "Trebuchet MS", arial;
+  font-size: 17px;
+  
+  padding-top: 50px;
+  margin-left: 450px;
+  
+}
+
+.desc-link {
+  
+  color: #bdc3c7;
+  text-decoration: none;
+  
+}
+
+.desc-link:hover {
+
+  transition: color 0.5s;
+  color: #3498db;
+
+}
+
+.desc-lnk-title {
+  
+  text-decoration: underline;
+  
+}
+
+.project-header {
+  
+  color: white;
+  
+  font-family: BureauGrotesque;
+  font-size: 30px;
+  
+  padding-top: 50px;
+  
+}
+
+/* CSS for ids below */
+#project-logo {
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2d3436;
+  
+}
+
+#image-wrapper {
+
+  /*background-color: #95a5a6;*/
+  
+  height: 426px;
+  
+}
+
+/* Definition of fonts below */
+@font-face {
+
+  font-family: BureauGrotesque;
+  src: url("BureauGrotesque.otf") format("opentype");
+
+}
