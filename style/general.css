@@ -6,7 +6,7 @@
   
   float: left !important;
   
-  color: white;
+  color: black;
 
 }
 
@@ -15,7 +15,7 @@
   font-size: 40px;
   font-family: BureauGrotesque;
   
-  color: white;
+  color: black;
   
 }
 
@@ -30,7 +30,7 @@
 
   text-decoration: none;
 
-  color: white;
+  color: black;
 
 }
 
@@ -43,7 +43,7 @@
 
 .top-links a {
 
-  color: white;
+  color: black;
   text-decoration: none;
 
 }
@@ -63,13 +63,13 @@
 
 body {
 
-  background-color: black;
+  background-color: #EEEEEE;
 
 }
 
 .project-description {
   
-  color: white; 
+  color: black; 
   
   font-family: "Trebuchet MS", arial;
   font-size: 17px;
@@ -79,9 +79,19 @@ body {
   
 }
 
+.cont-container {
+
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+}
+
 .desc-link {
   
-  color: #bdc3c7;
+  color: #007bff;
   text-decoration: none;
   
 }
@@ -89,7 +99,7 @@ body {
 .desc-link:hover {
 
   transition: color 0.5s;
-  color: #3498db;
+  color: #003cff;
 
 }
 
@@ -101,21 +111,29 @@ body {
 
 .project-header {
   
-  color: white;
+  color: rgb(0, 0, 0);
   
   font-family: BureauGrotesque;
-  font-size: 30px;
+  font-size: 40px;
   
   padding-top: 50px;
+  margin-left: 20px;
   
+}
+
+.lil-project {
+
+  margin: 10px;
+
 }
 
 /* CSS for ids below */
 #project-logo {
 
-  border-width: 5px;
+  border-width: 3px;
   border-style: solid;
-  border-color: #2d3436;
+  border-radius: 5px;
+  border-color: #d3d9da;
   
 }
 
@@ -125,6 +143,32 @@ body {
   
   height: 426px;
   
+}
+
+#welcome_msg {
+
+  color: black;
+  font-family: BureauGrotesque;
+  font-size: 25px;
+
+  margin: 0px;
+  text-align: left;
+  float: left !important;
+  padding: 0px;
+
+}
+
+#project-akhaten div {
+
+  padding-left: 10px;
+
+}
+
+#project {
+
+  height: 550px;
+  width: 1012px;
+
 }
 
 /* Definition of fonts below */
