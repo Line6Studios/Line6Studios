@@ -127,6 +127,21 @@ body {
 
 }
 
+.member {
+
+  display: inline-block;
+  padding-left: 25px;
+  font-family: "Trebuchet MS";
+
+}
+
+.member h2 {
+
+  font-family: BureauGrotesque;
+  font-size: 30px;
+
+}
+
 /* CSS for ids below */
 #project-logo {
 
@@ -167,6 +182,23 @@ body {
 #project {
 
   height: 550px;
+  width: 1012px;
+
+}
+
+#lil-projects-header {
+
+  font-family: BureauGrotesque;
+  font-size: 30px;
+  padding-left: 10px;
+
+  width: 12px;
+  height: 12px;
+
+}
+
+#members {
+
   width: 1012px;
 
 }
