@@ -3,7 +3,7 @@
     color: black; 
     
     font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+    font-size: 18px;
     
     padding-top: 50px;
     margin-left: 450px;
@@ -73,6 +73,12 @@ desc-link:hover {
 
     padding-left: 10px;
   
+}
+
+#project-ringer div {
+
+    padding-left: 10px;
+
 }
   
 #project {
