@@ -1,0 +1,101 @@
+.project-description {
+  
+    color: black; 
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    
+    padding-top: 50px;
+    margin-left: 450px;
+    
+}
+
+.desc-link {
+
+    font-family: "Andale Mono";
+    
+    color: #007bff;
+    text-decoration: none;
+    
+  }
+  
+desc-link:hover {
+  
+    transition: color 0.5s;
+    color: #003cff;
+  
+}
+  
+.desc-lnk-title {
+    
+    font-size: 25px;
+    
+    text-decoration: underline;
+    
+}
+
+.project-header {
+  
+    color: rgb(0, 0, 0);
+    
+    font-family: BureauGrotesque;
+    font-size: 40px;
+    
+    padding-top: 50px;
+    margin-left: 20px;
+    
+  }
+  
+.lil-project {
+  
+    margin: 10px;
+  
+}
+
+#project-logo {
+
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #d3d9da;
+    
+}
+  
+#image-wrapper {
+  
+    /*background-color: #95a5a6;*/
+    
+    height: 426px;
+    
+}
+
+#project-akhaten div {
+
+    padding-left: 10px;
+  
+}
+  
+#project {
+  
+    height: 550px;
+    width: 1012px;
+  
+}
+  
+#lil-projects-header {
+  
+    font-family: BureauGrotesque;
+    font-size: 30px;
+    padding-left: 10px;
+  
+    width: 12px;
+    height: 12px;
+  
+}
+
+@font-face {
+
+    font-family: BureauGrotesque;
+    src: url("BureauGrotesque.otf") format("opentype");
+  
+}
