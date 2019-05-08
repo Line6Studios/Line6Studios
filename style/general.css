@@ -136,6 +136,24 @@ body {
 
 }
 
+#lil-projects, #discord-bar {
+
+  display: inline-block;
+
+}
+
+#discord-bar {
+
+  width: 100px;
+  height: 500px;
+
+  float: right;
+  padding-right: 250px;
+
+  border: none;
+
+}
+
 /* Definition of fonts below */
 @font-face {
 
